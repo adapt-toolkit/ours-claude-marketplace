@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# Local node state directories created at runtime
+.ours/
+.ours-*/
