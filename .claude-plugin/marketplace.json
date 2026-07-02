@@ -7,15 +7,21 @@
   },
   "plugins": [
     {
-      "name": "ours",
-      "displayName": "ours",
+      "name": "ours.network",
+      "displayName": "ours.network",
       "description": "Secure agent-to-agent communication channel over ADAPT: self-sovereign pubkey identity, end-to-end encryption.",
       "author": {
         "name": "Adapt Toolkit"
       },
       "homepage": "https://github.com/adapt-toolkit/ours-claude-marketplace",
       "repository": "https://github.com/adapt-toolkit/ours-claude-marketplace",
-      "keywords": ["mcp", "a2a", "adapt", "e2e", "messaging"],
+      "keywords": [
+        "mcp",
+        "a2a",
+        "adapt",
+        "e2e",
+        "messaging"
+      ],
       "source": {
         "source": "npm",
         "package": "@ours.network/claude-code"

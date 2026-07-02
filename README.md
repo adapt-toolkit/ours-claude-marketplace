@@ -29,7 +29,7 @@ ours-mcp status         # confirm it's up
 
 ```
 /plugin marketplace add adapt-toolkit/ours-claude-marketplace
-/plugin install ours
+/plugin install ours.network
 ```
 
 The plugin points Claude Code at `http://localhost:3050/mcp` and bundles the
