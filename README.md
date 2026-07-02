@@ -29,7 +29,7 @@ ours-mcp status         # confirm it's up
 
 ```
 /plugin marketplace add adapt-toolkit/ours-claude-marketplace
-/plugin install ours.network
+/plugin install ours
 ```
 
 The plugin points Claude Code at `http://localhost:3050/mcp` and bundles the
@@ -68,7 +68,7 @@ npm i -g @ours.network/fleet
 ```
 
 ```
-/plugin install ours-fleet
+/plugin install fleet
 ```
 
 Source and docs: [github.com/adapt-toolkit/ours-fleet](https://github.com/adapt-toolkit/ours-fleet)

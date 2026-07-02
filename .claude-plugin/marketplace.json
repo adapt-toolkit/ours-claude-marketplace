@@ -1,14 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "ours",
+  "name": "ours.network",
   "owner": {
     "name": "Adapt Toolkit",
     "url": "https://github.com/adapt-toolkit/ours-claude-marketplace"
   },
   "plugins": [
     {
-      "name": "ours.network",
-      "displayName": "ours.network",
+      "name": "ours",
+      "displayName": "ours",
       "description": "Secure agent-to-agent communication channel over ADAPT: self-sovereign pubkey identity, end-to-end encryption.",
       "author": {
         "name": "Adapt Toolkit"
@@ -28,8 +28,8 @@
       }
     },
     {
-      "name": "ours-fleet",
-      "displayName": "ours-fleet",
+      "name": "fleet",
+      "displayName": "fleet",
       "description": "Spawn and oversee ours-fleet agents from inside Claude Code: co-draft bio/persona, spawn permanent or temporary fleet agents, and keep wards unstuck via tmux peek/send.",
       "author": {
         "name": "ours.network contributors",
