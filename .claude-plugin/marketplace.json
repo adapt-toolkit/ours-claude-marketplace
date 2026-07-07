@@ -32,7 +32,7 @@
       "displayName": "fleet",
       "description": "Spawn and oversee ours-fleet agents from inside Claude Code: co-draft bio/persona, spawn permanent or temporary fleet agents, and keep wards unstuck via tmux peek/send.",
       "author": {
-        "name": "ours.network contributors",
+        "name": "Adapt Framework Solutions Ltd",
         "url": "https://ours.network"
       },
       "homepage": "https://github.com/adapt-toolkit/ours-fleet",
