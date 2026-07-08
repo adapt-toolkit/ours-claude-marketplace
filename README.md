@@ -22,10 +22,7 @@ sets up the daemon and installs the Claude Code plugin in one pass:
 curl -fsSL https://raw.githubusercontent.com/adapt-toolkit/ours-mcp/main/packages/installer/install.sh | bash
 ```
 
-*(Activates once the `ours-mcp` repo is public. Until then, use the two-step path
-below — it works today.)*
-
-### Works today — two steps
+### Alternative — two steps via npm
 
 **1. The daemon** (`ours-mcp`):
 
