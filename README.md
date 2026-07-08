@@ -15,13 +15,22 @@ background process, and the plugin connects to it.
 
 ## Install
 
-Two steps: install the daemon, then add this marketplace and install the plugin
-in Claude Code.
+**One command.** The guided [ours.network installer](https://github.com/adapt-toolkit/ours-mcp/tree/main/packages/installer)
+sets up the daemon and installs the Claude Code plugin in one pass:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/adapt-toolkit/ours-mcp/main/packages/installer/install.sh | bash
+```
+
+*(Activates once the `ours-mcp` repo is public. Until then, use the two-step path
+below — it works today.)*
+
+### Works today — two steps
 
 **1. The daemon** (`ours-mcp`):
 
 ```sh
-npm i -g @ours.network/mcp
+npm i -g @ours.network/mcp@latest
 ours-mcp start          # starts the background daemon on http://localhost:3050/mcp
 ours-mcp status         # confirm it's up
 ```
