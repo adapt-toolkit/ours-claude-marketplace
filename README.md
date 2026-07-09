@@ -19,7 +19,7 @@ background process, and the plugin connects to it.
 sets up the daemon and installs the Claude Code plugin in one pass:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/adapt-toolkit/ours-mcp/main/packages/installer/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/adapt-toolkit/ours-network/main/install.sh | bash
 ```
 
 ### Alternative — two steps via npm
