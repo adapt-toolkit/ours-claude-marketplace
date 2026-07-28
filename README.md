@@ -52,26 +52,21 @@ ours-mcp install-service     # systemd user service (Linux) or launchd agent (ma
 ours-mcp uninstall-service
 ```
 
-## ours-fleet plugin
+## ours-fleet
 
-This marketplace also serves **ours-fleet** — a harness-agnostic fleet of
-persistent, identity-bound AI agents (declarative `fleet.yaml`, tmux consoles,
-systemd/launchd supervision, ours.network messaging). The plugin lets you spawn
-and oversee fleet agents from inside a Claude Code session: co-draft an agent's
-bio/persona, spawn permanent or temporary agents, and keep them unstuck via
-tmux peek/send. It ships as
-[`@ours.network/fleet-claude-code`](https://www.npmjs.com/package/@ours.network/fleet-claude-code);
-the actual work is done by the `ours-fleet` CLI.
+The core `ours` plugin also knows how to discover and configure **ours-fleet**,
+the harness-agnostic manager for persistent, identity-bound AI agents. A second
+Claude Code plugin is no longer required.
 
 ```sh
-npm i -g @ours.network/fleet
+npm i -g @ours.network/fleet@latest
+ours-fleet init
+ours-fleet docs
 ```
 
-```
-/plugin install fleet
-```
-
-Source and docs: [github.com/adapt-toolkit/ours-fleet](https://github.com/adapt-toolkit/ours-fleet)
+`ours-fleet docs` is the version-matched reference for tmux and ACP sessions,
+harness settings, permissions, spawning, and monitoring. Source:
+[github.com/adapt-toolkit/ours-fleet](https://github.com/adapt-toolkit/ours-fleet)
 
 ## Links
 
