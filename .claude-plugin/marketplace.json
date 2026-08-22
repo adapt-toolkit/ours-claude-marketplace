@@ -24,7 +24,8 @@
       ],
       "source": {
         "source": "npm",
-        "package": "@ours.network/claude-code"
+        "package": "@ours.network/claude-code",
+        "version": "0.17.0"
       }
     }
   ]
